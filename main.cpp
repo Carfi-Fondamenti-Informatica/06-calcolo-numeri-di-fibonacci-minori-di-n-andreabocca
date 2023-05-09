@@ -6,7 +6,7 @@ int main() {
     cin>>n;
     cout<<1<<endl;
     while (k<n) {
-        if (n>=(x+y)) {
+        if (n>(x+y)) {
             cout << x + y << endl;
             if (x < y) {
                 x = x + y;
